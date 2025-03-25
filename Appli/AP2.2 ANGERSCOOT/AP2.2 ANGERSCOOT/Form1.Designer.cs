@@ -33,14 +33,16 @@
             this.txt_mdp = new System.Windows.Forms.TextBox();
             this.lbl_password = new System.Windows.Forms.Label();
             this.lbl_login = new System.Windows.Forms.Label();
+            this.btn_connexion = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(319, 33);
+            this.pictureBox1.ErrorImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(319, 26);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(152, 149);
+            this.pictureBox1.Size = new System.Drawing.Size(164, 169);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -80,12 +82,22 @@
             this.lbl_login.TabIndex = 6;
             this.lbl_login.Text = "Login";
             // 
+            // btn_connexion
+            // 
+            this.btn_connexion.Location = new System.Drawing.Point(352, 349);
+            this.btn_connexion.Name = "btn_connexion";
+            this.btn_connexion.Size = new System.Drawing.Size(88, 23);
+            this.btn_connexion.TabIndex = 7;
+            this.btn_connexion.Text = "Se connecter";
+            this.btn_connexion.UseVisualStyleBackColor = true;
+            // 
             // FormulaireConnexion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_connexion);
             this.Controls.Add(this.lbl_login);
             this.Controls.Add(this.lbl_password);
             this.Controls.Add(this.txt_mdp);
@@ -106,6 +118,7 @@
         private System.Windows.Forms.TextBox txt_mdp;
         private System.Windows.Forms.Label lbl_password;
         private System.Windows.Forms.Label lbl_login;
+        private System.Windows.Forms.Button btn_connexion;
     }
 }
 

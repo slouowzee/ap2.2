@@ -60,6 +60,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="view %28pages%29\ListeChargeurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view %28pages%29\ListeChargeurs.Designer.cs">
+      <DependentUpon>ListeChargeurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view %28pages%29\ListeForfaits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view %28pages%29\ListeForfaits.Designer.cs">
+      <DependentUpon>ListeForfaits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view %28pages%29\ListeVehicules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view %28pages%29\ListeVehicules.Designer.cs">
+      <DependentUpon>ListeVehicules.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,7 +92,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="view %28pages%29\ListeChargeurs.resx">
+      <DependentUpon>ListeChargeurs.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -88,9 +110,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="controller %28config bdd%29\" />
+    <Folder Include="model\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="images\logo.png" />
+    <None Include="Resources\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

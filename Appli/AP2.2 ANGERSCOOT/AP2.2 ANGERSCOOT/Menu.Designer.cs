@@ -32,6 +32,7 @@
             this.listeDesVéhiculesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listeDesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionDesFichesDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,7 +41,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.listeDesVéhiculesToolStripMenuItem,
             this.listeDesToolStripMenuItem,
-            this.listeToolStripMenuItem});
+            this.listeToolStripMenuItem,
+            this.gestionDesFichesDeToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -65,6 +67,12 @@
             this.listeToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
             this.listeToolStripMenuItem.Text = "Liste des forfaits";
             // 
+            // gestionDesFichesDeToolStripMenuItem
+            // 
+            this.gestionDesFichesDeToolStripMenuItem.Name = "gestionDesFichesDeToolStripMenuItem";
+            this.gestionDesFichesDeToolStripMenuItem.Size = new System.Drawing.Size(155, 20);
+            this.gestionDesFichesDeToolStripMenuItem.Text = "Gestion des fiches de paie";
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -87,5 +95,6 @@
         private System.Windows.Forms.ToolStripMenuItem listeDesVéhiculesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listeDesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gestionDesFichesDeToolStripMenuItem;
     }
 }
